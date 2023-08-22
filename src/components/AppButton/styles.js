@@ -9,14 +9,6 @@ export const styles = StyleSheet.create({
     borderRadius: 16,
     alignItems: 'center',
     justifyContent: 'center',
-    shadowColor: "#000",
-    shadowOffset: {
-      width: 0,
-      height: 2,
-    },
-    shadowOpacity: 0.25,
-    shadowRadius: 3.84,
-
-    elevation: 5,
   },
+  titleText:{borderRadius:16,width:"100%",height:"100%",textAlignVertical:"center",textAlign:"center"}
 });

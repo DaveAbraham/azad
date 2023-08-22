@@ -7,7 +7,7 @@ const AppButton = props => {
 
   return (
     <TouchableOpacity onPress={onPress} style={styles.buttonContainer}>
-        <Text style={{borderRadius:16,width:"100%",height:"100%",textAlignVertical:"center",textAlign:"center",backgroundColor:"green"}}>{title}</Text>
+        <Text style={styles.titleText}>{title}</Text>
     </TouchableOpacity>
   );
 };
